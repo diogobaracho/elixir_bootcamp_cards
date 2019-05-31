@@ -12,3 +12,10 @@ Elixir basic crash course
 | **contains?** | _Given a deck and a single card, figure out if the cards is in the deck_  |
 | **save** | _Save a collection of cards to a file on the local machine_  |
 | **load** | _Load a collection of cards from the local machine_ |
+
+
+## STEPS
+
+### step01
+
+> $ mix new cards
