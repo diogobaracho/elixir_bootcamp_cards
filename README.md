@@ -46,4 +46,10 @@ Elixir basic crash course
 
 > $ Cards.shuffle(deck)
 
+### step05
+
+> $ recompile
+
+> Cards.contains?(deck, "Two")
+
 
