@@ -24,11 +24,16 @@ Elixir basic crash course
 
 ### step02 - docs
 
-> mix deps.get
+> $ mix deps.get
 
-> mix docs
+> $ mix docs
 
-> mix test
+> $ mix test
 
-> firefox doc/index.html
+> $ firefox doc/index.html
 
+### step03 - Lists and String
+
+> $ iex -S mix
+
+> $ iex> Cards.create_deck
