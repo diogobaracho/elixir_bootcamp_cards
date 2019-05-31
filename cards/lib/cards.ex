@@ -3,9 +3,11 @@ defmodule Cards do
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
 
-    # list comprehensions over lists
-    for suit <- suits do
-      suit
+    for value <- values do
+      for suit <- suits do
+        #interpolação de string
+        "#{value} of #{suit}"
+      end
     end
   end
 
