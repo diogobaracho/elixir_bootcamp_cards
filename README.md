@@ -53,3 +53,9 @@ Elixir basic crash course
 > Cards.contains?(deck, "Two")
 
 
+### step06
+
+### step08
+
+> Cards.save(deck, 'my_deck')
+

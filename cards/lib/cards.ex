@@ -21,4 +21,12 @@ defmodule Cards do
     #retorna uma tupla
     Enum.split(deck, hand_size)
   end
+
+  def save(deck, filename) do
+    # Cards.save(deck, "my_deck")
+    binary = :erlang.term_to_binary(deck)
+    File.write(filename, binary)
+  end
+
+
 end
