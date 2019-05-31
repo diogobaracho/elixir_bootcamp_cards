@@ -31,6 +31,10 @@ defmodule Cards do
   def load(filename) do
     # Cards.load("my_deck")
     {status, binary} = File.read(filename)
-    :erlang.binary_to_term binary
+
+    case status do
+      :ok -> :erlang.binary_to_term binary
+      :error -> "That file does not exists"
+    end
   end
 end
