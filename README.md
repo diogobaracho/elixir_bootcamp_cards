@@ -16,6 +16,19 @@ Elixir basic crash course
 
 ## STEPS
 
-### step01
+### step01 - create new project
 
 > $ mix new cards
+
+> $ cd cards
+
+### step02 - docs
+
+> mix deps.get
+
+> mix docs
+
+> mix test
+
+> firefox doc/index.html
+
