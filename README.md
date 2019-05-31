@@ -37,3 +37,13 @@ Elixir basic crash course
 > $ iex -S mix
 
 > $ iex> Cards.create_deck
+
+### step04
+
+> $ recompile
+
+> $ deck = Cards.create_deck
+
+> $ Cards.shuffle(deck)
+
+
